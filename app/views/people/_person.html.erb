@@ -9,4 +9,10 @@
     <%= person.name %>
   </p>
 
+  <p>
+    Plants:
+    <%= person.plants.each do |plant| %>
+    <%= plant.name %>
+    <% end %>
+  </p>
 </div>
